@@ -6,6 +6,8 @@ const App = () => {
   const [items, setItems] = useState([])
   const [isLoading, setIsLoading] = useState(true)
 
+  useEffect(() => {}, [])
+
   return (
     <div className='container'>
       <Header />
