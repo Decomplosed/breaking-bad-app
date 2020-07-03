@@ -12,6 +12,7 @@ const App = () => {
       const res = await axios(`https://www.breakingbadapi.com/api/characters`)
 
       setItems(res.data)
+      setIsLoading(false)
     }
 
     fetchItems()
