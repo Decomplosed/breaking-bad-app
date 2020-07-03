@@ -7,7 +7,15 @@ const App = () => {
   const [items, setItems] = useState([])
   const [isLoading, setIsLoading] = useState(true)
 
-  useEffect(() => {}, [])
+  useEffect(() => {
+    const fetchItems = async () => {
+      const res = await axios(`https://www.breakingbadapi.com/api/characters`)
+
+      setItems(res.data)
+    }
+
+    fetchItems()
+  }, [])
 
   return (
     <div className='container'>
