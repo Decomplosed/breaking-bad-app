@@ -4,7 +4,7 @@ import './App.css'
 
 const App = () => {
   const [items, setItems] = useState([])
-  const [isLoading, setIsLoading] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
 
   return (
     <div className='container'>
