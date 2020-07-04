@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Search = () => {
+const Search = ({ getQuery }) => {
   const [text, setText] = useState('')
 
   const onChange = (q) => {
