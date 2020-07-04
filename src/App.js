@@ -12,14 +12,16 @@ const App = () => {
 
   useEffect(() => {
     const fetchItems = async () => {
-      const res = await axios(`https://www.breakingbadapi.com/api/characters`)
+      const res = await axios(
+        `https://www.breakingbadapi.com/api/characters?name=${query}`
+      )
 
       setItems(res.data)
       setIsLoading(false)
     }
 
     fetchItems()
-  }, [])
+  }, [query])
 
   return (
     <div className='container'>
