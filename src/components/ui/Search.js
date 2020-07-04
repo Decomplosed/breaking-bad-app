@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Search = () => {
-  return <div></div>
+  return <section className='search'></section>
 }
 
 export default Search
