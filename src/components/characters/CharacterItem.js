@@ -9,6 +9,7 @@ const CharacterItem = ({ item }) => {
           <img src={item.img} alt={item.name} />
         </div>
         <div className='card-back'>
+          <h1>{item.name}</h1>
           <ul>
             <li>
               <strong>Actor Name:</strong> {item.portrayed}
