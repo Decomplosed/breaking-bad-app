@@ -8,8 +8,15 @@ const CharacterItem = ({ item }) => {
         <div className='card-front'>
           <img src={item.img} alt={item.name} />
         </div>
-        <div className="card-back">
-          <ul></ul>
+        <div className='card-back'>
+          <ul>
+            <l1>
+              <strong>Actor Name:</strong> {item.portrayed}
+            </l1>
+            <l1></l1>
+            <l1></l1>
+            <l1></l1>
+          </ul>
         </div>
       </div>
     </div>
