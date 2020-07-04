@@ -1,7 +1,13 @@
 import React from 'react'
 
 const CharacterItem = ({ item }) => {
-  return <div>{item.name}</div>
+  return (
+    <div className="card">
+      <div className="card-inner">
+        
+      </div>
+    </div>
+  )
 }
 
 export default CharacterItem
