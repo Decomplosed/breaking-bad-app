@@ -8,6 +8,9 @@ const CharacterItem = ({ item }) => {
         <div className='card-front'>
           <img src={item.img} alt={item.name} />
         </div>
+        <div className="card-back">
+          <ul></ul>
+        </div>
       </div>
     </div>
   )
