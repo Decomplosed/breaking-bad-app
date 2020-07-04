@@ -10,6 +10,7 @@ const Search = () => {
           type='text'
           className='form-control'
           placeholder='Search characters'
+          value={text}
           autoFocus
         />
       </form>
