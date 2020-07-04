@@ -10,14 +10,16 @@ const CharacterItem = ({ item }) => {
         </div>
         <div className='card-back'>
           <ul>
-            <l1>
+            <li>
               <strong>Actor Name:</strong> {item.portrayed}
-            </l1>
-            <l1>
+            </li>
+            <li>
               <strong>Nickname:</strong> {item.nickname}
-            </l1>
-            <l1></l1>
-            <l1></l1>
+            </li>
+            <li>
+            <strong>Birthday:</strong> {item.birthday}
+            </li>
+            <li></li>
           </ul>
         </div>
       </div>
