@@ -8,6 +8,7 @@ import './App.css'
 const App = () => {
   const [items, setItems] = useState([])
   const [isLoading, setIsLoading] = useState(true)
+  const [query, setQuery] = useState('')
 
   useEffect(() => {
     const fetchItems = async () => {
